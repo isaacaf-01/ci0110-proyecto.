@@ -12,7 +12,13 @@ def CrearTableroVacio():
     return tablero
 
 def mostrar_tablero(matriz):
-   
+    print("")
+
+
+
+
+
+    print ("holaaa")
     letras = "ABCDEFGH"
     print("    1   2   3   4   5   6   7   8") # Encabezado de números
     print("  +---+---+---+---+---+---+---+---+")
