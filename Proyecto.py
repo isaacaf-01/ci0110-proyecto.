@@ -14,10 +14,10 @@ def CrearTableroVacio():
 def mostrar_tablero(matriz):
     
     letras = "ABCDEFGH"
-    print("    1   2   3   4   5   6   7   8") # Encabezado de números
+    print("    1   2   3   4   5   6   7   8") 
     print("  +---+---+---+---+---+---+---+---+")
     
-    for i in range(len(matriz)):              # este ciclo es para imprimir el tablero y sumarle el formato a la hora de mostrarlo en la terminal pero no van a ser parte de la matriz, solo es visual.
+    for i in range(len(matriz)):              
         fila = (letras[i] + " | ")
         for elemento in matriz[i]:
             fila += (elemento +  " | ")
